@@ -89,6 +89,7 @@ func MakeTestTenant() *entity.AuthTenant {
 	}
 }
 
+
 func MakeTestRole() *entity.AuthRole {
 	return &entity.AuthRole{
 		ID:        uuid.New(),
